@@ -23,9 +23,9 @@ console.log("\nEXERCISE 2");
 console.log(
   "Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8."
 );
-let x = 7;
+let l = 7;
 let k = 4;
-let condition = x - k === 12 || k + y === 12 || x === 8 || k === 8;
+let condition = x - l === 12 || l + y === 12 || l === 8 || k === 8;
 console.log("The condition is: " + condition);
 
 /*EX 3
