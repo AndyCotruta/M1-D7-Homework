@@ -25,7 +25,7 @@ console.log(
 );
 let l = 7;
 let k = 4;
-let condition = x - l === 12 || l + y === 12 || l === 8 || k === 8;
+let condition = k - l === 12 || l + k === 12 || l === 8 || k === 8;
 console.log("The condition is: " + condition);
 
 /*EX 3
@@ -144,9 +144,11 @@ console.log(
   "Write a piece of code for checking if a given number is even or odd."
 );
 
-let n = 32;
+let n = "mother";
 if (Number.isInteger(n / 2)) {
   console.log("The number is even.");
+} else if (Number.isInteger(n) === false) {
+  console.log("Please insert a number");
 } else {
   console.log("The number is odd.");
 }
