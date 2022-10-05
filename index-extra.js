@@ -6,7 +6,7 @@
 */
 
 /* WRITE YOUR ANSWER HERE */
-console.log("EXERCISE 1");
+console.log("\n\n\nEXERCISE 1");
 console.log(
   "Use a ternary operator to assign to a variable called gender the string values male or female.\nThe choice should be made based on the value of another variable called isMale."
 );
@@ -94,9 +94,9 @@ console.log("\nEXERCISE 6");
 console.log(
   "Write a piece of code for finding the longest of two given strings."
 );
-let firstString = "Epicode";
+let firstString = "Epicoding";
 let secondString = "Course";
-if (firstString.lentgh > secondString.length) {
+if (firstString.length > secondString.length) {
   console.log("The longest String is: " + firstString);
 } else if (firstString.length < secondString.length) {
   console.log("The longest String is: " + secondString);
