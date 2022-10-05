@@ -24,8 +24,8 @@ console.log(
   "Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8."
 );
 let x = 7;
-let y = 4;
-let condition = x - y === 12 || x + y === 12 || x === 8 || y === 8;
+let k = 4;
+let condition = x - k === 12 || k + y === 12 || x === 8 || k === 8;
 console.log("The condition is: " + condition);
 
 /*EX 3
